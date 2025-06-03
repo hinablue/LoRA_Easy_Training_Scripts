@@ -331,6 +331,16 @@
              <string>RAdamScheduleFree</string>
             </property>
            </item>
+           <item>
+            <property name="text">
+             <string>Automagic_AdamS</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Automagic_CAMEAMP_Improved</string>
+            </property>
+           </item>
           </widget>
          </item>
          <item row="1" column="0">
