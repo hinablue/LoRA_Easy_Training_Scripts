@@ -112,7 +112,10 @@ class Ui_sub_dataset_input(object):
 
         self.keep_tokens_input = SpinBox(sub_dataset_input)
         self.keep_tokens_input.setObjectName(u"keep_tokens_input")
+        self.keep_tokens_input.setMaximumSize(QSize(16777215, 16777215))
         self.keep_tokens_input.setFocusPolicy(Qt.StrongFocus)
+        self.keep_tokens_input.setMinimum(1)
+        self.keep_tokens_input.setMaximum(16777215)
 
         self.other_form_layout.setWidget(1, QFormLayout.FieldRole, self.keep_tokens_input)
 
