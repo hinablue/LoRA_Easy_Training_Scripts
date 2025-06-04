@@ -333,12 +333,12 @@
            </item>
            <item>
             <property name="text">
-             <string>Automagic_AdamS</string>
+             <string>LoraEasyCustomOptimizer.automagic_adams.Automagic_AdamS</string>
             </property>
            </item>
            <item>
             <property name="text">
-             <string>Automagic_CAMEAMP_Improved</string>
+             <string>LoraEasyCustomOptimizer.automagic_cameamp_improved.Automagic_CAMEAMP_Improved</string>
             </property>
            </item>
           </widget>

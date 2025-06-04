@@ -450,7 +450,7 @@ class Ui_optimizer_ui(object):
         self.optimizer_type_selector.setItemText(14, QCoreApplication.translate("optimizer_ui", u"RMSProp", None))
         self.optimizer_type_selector.setItemText(15, QCoreApplication.translate("optimizer_ui", u"RAdamScheduleFree", None))
         self.optimizer_type_selector.setItemText(16, QCoreApplication.translate("optimizer_ui", u"Automagic_AdamS", None))
-        self.optimizer_type_selector.setItemText(17, QCoreApplication.translate("optimizer_ui", u"Automagic_Hina_Improved", None))
+        self.optimizer_type_selector.setItemText(17, QCoreApplication.translate("optimizer_ui", u"Automagic_CAMEAMP_Improved", None))
 
 #if QT_CONFIG(tooltip)
         self.optimizer_type_selector.setToolTip(QCoreApplication.translate("optimizer_ui", u"<html><head/><body><p>Optimizer Type is the Optimizer that will be used during training</p></body></html>", None))
